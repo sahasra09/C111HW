@@ -54,5 +54,5 @@ fig.show()
 
 
 
-z_score = (mean - mean_of_sample1)/std_deviation
+z_score = (mean_of_sample1-mean)/std_deviation
 print("The z score is = ",z_score)
