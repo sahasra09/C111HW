@@ -6,7 +6,7 @@ import pandas as pd
 import csv
 
 
-df = pd.read_csv("School2.csv")
+df = pd.read_csv("School1.csv")
 data = df["Math_score"].tolist()
 
 def random_set_of_mean(counter):
